@@ -1,0 +1,20 @@
+#ifndef _BC_INST_H
+#define _BC_INST_H
+void do_load_const(int);
+void do_store_name(int);
+void do_binary_add(int);
+void do_binary_substract(int);
+void do_binary_divide(int);
+void do_binary_mul(int);
+void do_binary_modulas(int);
+void do_load_name(int);
+void do_print_item(int);
+void do_print_new_line(int);
+void do_setup_loop(int);
+void do_pop_block(int);
+void do_jump_if_false(int);
+void do_pop_top(int);
+void do_jump_fw(int);
+void do_nothing(int);
+void do_jump_abs(int);
+#endif
